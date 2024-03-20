@@ -1,0 +1,39 @@
+section {
+    padding: 50px;
+    width: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+section img {
+    width: 80%;
+}
+
+section h2 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+section table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+section table th {
+    background-color: brown;
+    color: white;
+}
+
+section table td, section table th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+section table tr:nth-child(2n+1) {
+    background-color: #f0f0f0;
+}

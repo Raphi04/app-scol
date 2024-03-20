@@ -1,0 +1,14 @@
+section {
+    padding: 20px;
+    max-width: calc(100% - 40px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: burlywood;
+}
+
+section app-etudiant, section app-specialite, section app-etudiant-paris, section app-etudiant-hors-paris, section app-etudiant-formulaire, section app-specialite-formulaire {
+    width: 48%;
+}

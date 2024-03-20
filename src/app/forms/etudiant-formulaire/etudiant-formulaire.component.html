@@ -1,0 +1,33 @@
+<section>
+    <h2>Formulaire ajout étudiant</h2>
+    <form [formGroup]="etudiantFormulaire">
+        <label for="nom">Nom :</label>
+        <input id="nom" type="text" formControlName="nom" required>
+
+        <label for="prenom">Prenom :</label>
+        <input id="prenom" type="text" formControlName="prenom" required>
+
+        <label for="rue">Rue :</label>
+        <input id="rue" type="text" formControlName="rue" required>
+
+        <label for="cp">Code Postale :</label>
+        <input id="cp" type="text" formControlName="cp" required>
+        
+        <label for="ville">Ville :</label>
+        <input id="ville" type="text" formControlName="ville" required>
+
+        <label for="courriel">Courriel :</label>
+        <input id="courriel" type="text" formControlName="courriel" required>
+
+        <label for="genre">Genre :</label>
+        <input id="genre" type="text" formControlName="genre" required>
+
+        <label for="age">Age :</label>
+        <input id="age" type="text" formControlName="age" required>
+
+        <label for="idCandidat">ID Candidat :</label>
+        <input id="idCandidat" type="text" formControlName="idCandidat" required>
+        
+        <button (click)="onSubmit()">Ajouter</button>
+    </form>
+</section>

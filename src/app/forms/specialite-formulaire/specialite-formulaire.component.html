@@ -1,0 +1,12 @@
+<section>
+    <h2>Formulaire ajout specialite</h2>
+    <form [formGroup]="specialiteForm">
+        <label for="nom">Libelle spécialite :</label>
+        <input id="nom" type="text" formControlName="libelle" required>
+
+        <label for="prenom">Idientifiant spécialite :</label>
+        <input id="prenom" type="text" formControlName="idSpec" required>
+        
+        <button (click)="onSubmit()">Ajouter</button>
+    </form>
+</section>

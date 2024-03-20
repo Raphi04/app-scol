@@ -1,0 +1,34 @@
+<section>
+    <img src="/assets/etudiants.jpg">
+    <h2>Liste des étudiants</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Rue</th>
+                <th>Code postal</th>
+                <th>Ville</th>
+                <th>Courriel</th>
+                <th>Genre</th>
+                <th>Age</th>
+                <th>ID candidat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <ng-container *ngFor="let etudiant of listeEtudiants">
+                <tr>
+                    <td>{{etudiant._nom}}</td>
+                    <td>{{etudiant._prenom}}</td>
+                    <td>{{etudiant._rue}}</td>
+                    <td>{{etudiant._cp}}</td>
+                    <td>{{etudiant._ville}}</td>
+                    <td>{{etudiant._courriel}}</td>
+                    <td>{{etudiant._genre}}</td>
+                    <td>{{etudiant._age}}</td>
+                    <td>{{etudiant._idCand}}</td>
+                </tr>
+            </ng-container>
+        </tbody>
+    </table>
+</section>
